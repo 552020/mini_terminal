@@ -1,0 +1,32 @@
+{
+  "C_Cpp.default.includePath": [
+    "/Users/stefano/.brew/Cellar/sdl2/2.28.5/include/SDL2",
+    "/Users/stefano/.brew/Cellar/sdl2_ttf/2.20.2/include/SDL2",
+    "${workspaceFolder}/**"
+  ],
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.intelliSenseMode": "macos-gcc-x64",
+  "[c]": {
+    "editor.defaultFormatter": "keyhr.42-c-format",
+    "editor.formatOnSave": true
+  },
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
+  "keybindings": [
+    {
+      "key": "ctrl+f",
+      "command": "-editor.action.startFindReplaceAction",
+      "when": "editorFocus"
+    }
+  ],
+  "cSpell.words": ["isregularchar", "isspecialchar", "isvalidvarname", "putendl"],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#203210",
+    "titleBar.activeBackground": "#2D4717",
+    "titleBar.activeForeground": "#F9FCF6"
+  },
+  "files.associations": {
+    "complex": "c"
+  }
+}
